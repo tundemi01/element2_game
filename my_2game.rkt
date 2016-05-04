@@ -30,12 +30,7 @@
                         (3 ,@actions)))
 
 
-;(define (get-directions id)
-;  (let ((record (assq id decisiontable)))
-;    (let ((result (filter (lambda (n) (number? (second n))) (cdr record))))
-;      (printf "You can see exits to the ")nor
-;      (for-each (lambda (direction) (printf "~a " (first direction))) result))
-;      (printf "\n")))
+
 
 (define objectdb ( make-hash))
 (define inventorydb ( make-hash))
